@@ -4,12 +4,12 @@ Config.Locations = {
     ["duty"] = {
         [1] = vector3(-653.73, -87.68, 38.79), -- HQ
         [2] = vector3(198.9, -1639.21, 29.8), -- DAVIS
-        [3] = vector3(1187.7, -1468.59, 34.86), -- FS7
+        [3] = vector3(1218.35, -1467.9, 34.85), -- FS7
     },
     ["vehicle"] = {
         [1] = vector4(-646.8, -105.99, 37.95, 125.42), -- HQ
         [2] = vector4(218.57, -1636.08, 29.3, 316.19), -- DAVIS
-        [3] = vector4(1199.55, -1456.22, 34.95, 355.6), -- FS7
+        [3] = vector3(1188.33, -1485.36, 34.85), -- FS7
     },
     ["helicopter"] = {
         [1] = vector4(-679.3, -35.13, 38.33, 153.33), -- HQ
@@ -19,12 +19,12 @@ Config.Locations = {
     ["armory"] = {
         [1] = vector3(-623.88, -109.03, 45.5), -- HQ
         [2] = vector3(198.71, -1649.07, 29.8), -- DAVIS
-        [3] = vector3(1193.86, -1476.25, 34.86), -- FS7
+        [3] = vector3(1155.55, -1459.3, -126.12), -- FS7
     },
     ["stash"] = {
         [1] = vector3(-629.2, -85.22, 45.41), -- HQ
         [2] = vector3(217.48, -1662.38, 29.8), -- DAVIS
-        [3] = vector3(1216.91, -1474.23, 34.86), -- FS7
+        [3] = vector3(1163.44, -1490.26, 34.85), -- FS7
     },
     ["stations"] = {
         [1] = {label = "Fire Department HQ", coords = vector4(-660.42, -77.13, 38.8, 15.25)},
@@ -37,35 +37,69 @@ Config.AuthorizedVehicles = {
 	-- Grade 0
 	[0] = {
 		["firetruk"] = "Fire Truck",
+		["brutefire"] = "Brute Fire",
+		["vulcarfire"] = "Vulcar",
+		["tfs52"] = "Ultralight",
 	},
 	-- Grade 1
 	[1] = {
 		["firetruk"] = "Fire Truck",
-
+		["brutefire"] = "Brute Fire",
+		["vulcarfire"] = "Vulcar",
+		["tfs52"] = "Ultralight",
 	},
 	-- Grade 2
 	[2] = {
 		["firetruk"] = "Fire Truck",
+		["brutefire"] = "Brute Fire",
+		["vulcarfire"] = "Vulcar",
+		["tfs52"] = "Ultralight",
 	},
 	-- Grade 3
 	[3] = {
 		["firetruk"] = "Fire Truck",
+		["brutefire"] = "Brute Fire",
+		["vulcarfire"] = "Vulcar",
+		["tfs52"] = "Ultralight",
 	},
 	-- Grade 4
 	[4] = {
 		["firetruk"] = "Fire Truck",
+		["brutefire"] = "Brute Fire",
+		["vulcarfire"] = "Vulcar",
+		["tfs52"] = "Ultralight",
 	},
     -- Grade 5
 	[5] = {
 		["firetruk"] = "Fire Truck",
+		["brutefire"] = "Brute Fire",
+		["vulcarfire"] = "Vulcar",
+		["tfs52"] = "Ultralight",
 	},
     -- Grade 6
 	[6] = {
 		["firetruk"] = "Fire Truck",
+		["brutefire"] = "Brute Fire",
+		["vulcarfire"] = "Vulcar",
+		["tfs52"] = "Ultralight",
+	},
+
+    [7] = {
+		["firetruk"] = "Fire Truck",
+		["brutefire"] = "Brute Fire",
+		["vulcarfire"] = "Vulcar",
+		["tfs52"] = "Ultralight",
+	},
+
+    [8] = {
+		["firetruk"] = "Fire Truck",
+		["brutefire"] = "Brute Fire",
+		["vulcarfire"] = "Vulcar",
+		["tfs52"] = "Ultralight",
 	}
 }
 
-Config.Helicopter = "polmav"
+Config.Helicopter = "fireheli"
 
 Config.Items = {
     label = "Firefighter Armory",
@@ -82,66 +116,58 @@ Config.Items = {
         [2] = {
             name = "bandage",
             price = 0,
-            amount = 50,
+            amount = 300,
             info = {},
             type = "item",
             slot = 2,
         },
         [3] = {
-            name = "firstaid",
-            price = 0,
-            amount = 50,
-            info = {},
-            type = "item",
-            slot = 3,
-        },
-        [4] = {
             name = "weapon_flashlight",
             price = 0,
             amount = 1,
             info = {},
             type = "item",
-            slot = 4,
+            slot = 3,
         },
-        [5] = {
+        [4] = {
             name = "weapon_fireextinguisher",
             price = 0,
             amount = 50,
             info = {},
             type = "item",
-            slot = 5,
+            slot = 4,
         },
-        [6] = {
+        [5] = {
             name = "advancedrepairkit",
             price = 0,
             amount = 10,
             info = {},
             type = "item",
-            slot = 6,
+            slot = 5,
         },
-        [7] = {
-            name = "ifaks",
-            price = 0,
-            amount = 50,
-            info = {},
-            type = "item",
-            slot = 7,
-        },
-        [8] = {
+        [6] = {
             name = "weapon_hatchet",
             price = 0,
             amount = 1,
             info = {},
             type = "item",
-            slot = 8,
+            slot = 6,
         },
-        [9] = {
+        [7] = {
             name = "notepad",
             price = 0,
             amount = 1,
             info = {},
             type = "item",
-            slot = 9,
+            slot = 7,
+        },
+        [8] = {
+            name = "gps_tracker",
+            price = 0,
+            amount = 500,
+            info = {},
+            type = "item",
+            slot = 8,
         },
     }
 }

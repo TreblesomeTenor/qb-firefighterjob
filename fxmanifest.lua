@@ -13,4 +13,11 @@ client_scripts {
 
 server_script 'server/main.lua'
 
+dependencies {
+    'qb-core',
+    'ox_inventory',
+    'ox_target',
+    'qb-menu'
+}
+
 lua54 'yes'
