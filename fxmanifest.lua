@@ -4,6 +4,8 @@ game 'gta5'
 description 'QB-FirefighterJob'
 version '1.0.0'
 
+author 'jay_lac2000 | TreblesomeTenor'
+
 shared_script 'config.lua'
 
 client_scripts {
